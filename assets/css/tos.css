@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+}
+
+.tos{
+    width: 100%;
+    padding: 2em 10%;
+}
+
+.tos-title, .refund-title, .privacy-title{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+.tos-content, .refund-content, .privacy-content{
+    text-align: justify;
+}
+
+.tos-content li, .refund-content li, .privacy-content li{
+    padding: 0.5em 1em;
+}
+
+.refund-policy, .privacy-policy{
+    width: 100%;
+    padding: 2em 10%;
+}

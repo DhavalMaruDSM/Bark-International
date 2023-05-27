@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin-top: 7em;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 1em 0 0 0;
+    height:fit-content;
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.logo{
+    text-align: center;
+    height: 2.5em;
+    width: 100%;
+    margin-block: 0.5em;
+}
+
+.logo-img{
+    height: 100%;
+}
+
+.links{
+    width: 100%;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    width: fit-content;
+    padding: .5em .5em;
+    margin-inline: 1em;
+    font-size: .9em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+.nav-links.active{
+    color: #000;
+    border-bottom: 2px solid #333333;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.footer{
+    background-color: #333333;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quick-links{
+    width: 40%;
+    margin: 5em 0;
+}
+
+.quick-links a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.quick-links ul{
+    padding-left: 2em;
+    list-style: none;
+}
+
+.newsletter{
+    width: 40%;
+    margin: 5em 0;
+}
+
+.quick-link-title{
+    font-size: 1em;
+    color: #fff;
+}
+
+.newsletter-title{
+    width: 100%;
+    color: #ccc;
+}
+
+.msg{
+    width: 100%;
+    text-align: justify;
+    margin: 1em 0em;
+}
+
+.input{
+    width: 100%;
+    text-align: justify;
+}
+
+.input input{
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 2em;
+}
+
+.submit-btn{
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover{
+    background-color: #333333;
+    color: white;
+}
