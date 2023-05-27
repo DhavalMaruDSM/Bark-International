@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+
+.container{
+    width: 100%;
+}
+
+.sec-1{
+    display: flex;
+    width: 100%;
+    background-image: url("../resourses/headline-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    align-items: center;
+}
+
+.headline{
+    width: 40%;
+    font-size: 4em;
+    margin: 0 5%;
+    color: #333333;
+}
+
+.headline div{
+    font-family: 'Dancing Script', cursive;
+}
+
+.sec-2{
+    width: 100%;
+    padding: 4em 0;
+}
+
+.sec-2-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding: 1em 0;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 5em;
+}
+
+.product{
+    width: 30%;
+    padding: 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 0 1px black;
+}
+
+.product-img{
+    width:100%;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.product-img img{
+    width:100%;
+    transition: all 0.5s ease;
+}
+
+.product-img:hover img{
+    transform: scale(1.1);
+}
+
+.product-name{
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.rate{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.button{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: #333333;
+    border-radius: 2em;
+    color:#fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 0 #ccc;
+}
+
+.button:hover{
+    box-shadow: 0 0 1px #333333;
+    background-color: #fff;
+    color: #000;
+}
+
+.new-products{
+    width: 100%;
+    padding: 0 10%;
+}
+
+.new-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 0 2px #000;
+    border-radius: 1em;
+    margin-block: 1em;
+    justify-content: space-around;
+}
+
+.img{
+    width:40%;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.img:hover img{
+    transform: scale(1.1);
+}
+
+.detail{
+    width: 40%;
+}
+
+.new-product-name{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    margin-block: 0.5em;
+}
+
+.detail .button{
+    margin-block: 0.5em;
+}
+
+.sec-3-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding: 1em 0;
+}
+
+.history{
+    width:80%;
+    margin: 1em 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.history-img{
+    width: 40%;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.history-img img{
+    width: 100%;
+}
+
+.history-details{
+    width: 60%;
+    padding: 1em;
+}
+
+.history-title{
+    text-align: center;
+    font-size: 1.5em;
+    margin-block: 0.5em; 
+}
+
+.history-desp{
+    text-align: justify;
+    margin-block: 0.5em;
+}
+
+.mission{
+    width: 80%;
+    margin: 1em 10%;
+}
+
+.mission-title{
+    text-align: center;
+    font-size: 1.5em;
+    margin-block: 0.5em;
+}
+
+.mission-desp{
+    text-align: justify;
+    margin-block: 0.5em;
+}
+
+.values{
+    width: 80%;
+    margin: 1em 10%;
+}
+
+.values-title{
+    font-size: 1.5em;
+    text-align: center;
+    margin-block: 0.5em;
+}
+
+.values-desp{
+    text-align: justify;
+    margin-block: 0.5em;
+}
+
+.sec-3{
+    margin-bottom: 10em;
+}
+
+.sec-3-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 1em 10%;
+    justify-content: center;
+}
+
+.history-btn, .mission-btn, .values-btn{
+    font-size: 1.2em;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 2em;
+    cursor: pointer;
+}
+
+.history, .mission, .values{
+    height: fit-content;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.history.hidden, .mission.hidden, .values.hidden{
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.history-btn.active, .mission-btn.active, .values-btn.active{
+    border-bottom: 2px solid #333333;
+}
+
+.sec-4{
+    width: 100%;
+    padding: 4em 0;
+}
+
+.sec-4-title{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.testimonials{
+    width: 80%;
+    margin: 4em 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.testimonial{
+    width: 30%;
+}
+
+.testimonial-img{
+    width: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20%;
+    aspect-ratio: 1/1;
+}
+
+.testimonial-img img{
+    width: 100%;
+}
+
+.testimonial-name{
+    text-align: center;
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+.testimonial-rating{
+    text-align: center;
+    height: 1.5em;
+}
+
+.testimonial-rating img{
+    height: 100%;
+    padding: 0 0.3em;
+}
+
+.testimonial-review{
+    font-size: 0.8em;
+    text-align: justify;
+    margin: 1em 20%;
+}
+
+@media (max-width: 768px) {
+    .headline {
+      font-size: 2rem;
+    }
+    
+    .product {
+      width: 100%;
+    }
+    
+    .about-description {
+      flex: 1 1 100%;
+    }
+    
+    .testimonial {
+      width: 100%;
+    }
+  }
+  
+  /* Adjustments for medium screens */
+  @media (max-width: 992px) {
+    .headline {
+      font-size: 2.5rem;
+    }
+    
+    .new-products {
+      padding: 0 10%;
+    }
+  }
+  
+  /* Adjustments for larger screens */
+  @media (min-width: 1200px) {
+    .headline {
+      font-size: 4rem;
+    }
+  }
